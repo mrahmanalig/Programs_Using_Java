@@ -23,13 +23,7 @@ public class AddMatrix {
                System.out.println();
            }
 
-        System.out.println("Entered matrix is: ");
-           for(int i=0;i<m;i++){
-            for(int j=0;j<n;j++){
-                System.out.print(arr1[i][j]+"  ");
-            }
-               System.out.println();
-           }
+       
             int [][] arr2=new int[m][n];
         System.out.println("Enter elements of 2matrix: ");
         for(int i=0;i<m;i++){
